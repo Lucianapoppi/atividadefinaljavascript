@@ -1,0 +1,111 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.resetar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seta {
+    width: 25px;
+    height: 25px;
+    background-color: #4CAF50;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.resultado {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.celulaVazia {
+    background-color: #e2dcdc;
+}
+
+th,
+td {
+    font-size: 14px;
+    align-content: center;
+}
+
+
+th {
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.seta {
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border: none;
+    text-align: stretch;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    right: 5px;
+    top: 50%;
+}

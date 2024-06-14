@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Notas dos estudantes</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th ><button onclick="resetarFiltros()" class="resetar">Resetar filtros</button></th>
+                <th class="alinhamentoSetas" colspan="5">
+                    <span>Matemática</span>
+                    <button onclick="organizandoCresc('matematica')" class="seta"><img src="./image/seta cima.svg" alt="" class="img"></button>
+                    <button onclick="organizandoDecres('matematica')" class="seta"><img src="./image/seta baixo.svg" alt="" class="img"></button>
+                </th>
+                <th class="alinhamentoSetas" colspan="5">
+                    <span>Português</span>
+                    <button onclick="organizandoCresc('portugues')" class="seta"><img src="./image/seta cima.svg" alt="" class="img"></button>
+                    <button onclick="organizandoDecres('portugues')" class="seta"><img src="./image/seta baixo.svg" alt="" class="img"></button>
+                </th>
+                <th class="alinhamentoSetas" colspan="5">
+                    <span>Pensamento Computacional</span>
+                    <button onclick="organizandoCresc('pensamentoComputacional')" class="seta"><img src="./image/seta cima.svg" alt="" class="img"></button>
+                    <button onclick="organizandoDecres('pensamentoComputacional')" class="seta"><img src="./image/seta baixo.svg" alt="" class="img"></button>
+                </th>
+                <th colspan="5">Resultado 
+                    <button onclick="organizandoResultado('aprovado')" class="resultado">Aprov</button>
+                    <button onclick="organizandoResultado('reprovado')" class="resultado">Reprov</button>
+                </th>
+            </tr>
+            <tr>
+                <td class="celulaVazia"></td>
+                <td>1º Bim</td>
+                <td>2º Bim</td>
+                <td>3º Bim</td>
+                <td>4º Bim</td>
+                <td>Média</td>
+                <td>1º Bim</td>
+                <td>2º Bim</td>
+                <td>3º Bim</td>
+                <td>4º Bim</td>
+                <td>Média</td>
+                <td>1º Bim</td>
+                <td>2º Bim</td>
+                <td>3º Bim</td>
+                <td>4º Bim</td>
+                <td>Média</td>
+                <td class="celulaVazia"></td>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+
+
+
+    </table>
+
+
+    <script src="./dom.js"></script>
+</body>
+
+</html>

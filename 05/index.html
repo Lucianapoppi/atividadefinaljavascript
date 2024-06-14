@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppi Collections</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho" id="home">
+        <div class="cabecalhoBarra">
+            <img src="./image/logo.png" alt="Logo do Poppi Collection" class="barraLogo">
+            <div class="cabecalhoPesquisaBusca">
+                <label for="pesquisa"></label>
+                <input type="search" name="pesquisa" id="pesquisa" class="pesquisa" placeholder="Pesquisa">
+                <button class="btnProcurar">Procurar</button>
+            </div>
+            <nav class="cabecalhoMenu">
+
+                <ul>
+                    <li class="menuLink"><a href="carrinho.html">Carrinho</a></li>
+                    <li class="menuLink"><a href="#minhaConta">Minha conta</a></li>
+                    <li class="menuLink"><a href="#contatos">Contatos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <nav class="navegacaoListas">
+            <ul class="ulListas">
+
+                <li class="li1">
+                    <a href="">Catálogo</a>
+                </li>
+
+                <li class="li2">
+                    <a href="">Reservas</a>
+                </li>
+
+                <li class="li3">
+                    <a href="">Promoção</a>
+                </li>
+
+                <li class="li4">
+                    <a href="">Model Kit</a>
+                </li>
+
+                <li class="li5">
+                    <a href="">Showroom</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <h1>
+            PRODUTOS
+        </h1>
+        <div class="filtro-container">
+            <label for="filtro">Filtrar por fabricante:</label>
+            <select name="filtro" id="filtro">
+                <option value="nenhum"> </option>
+                <option value="0">Todos</option>
+                <option value="1">Iron Sudios</option>
+                <option value="2">Bandai</option>
+                <option value="3">Hot Toys</option>
+                <option value="4">Tweeterhead</option>
+            </select>
+
+            <label for="ordem">Ordenar por preço:</label>
+            <select name="ordem" id="ordem">
+                <option value="nenhum"></option>
+                <option value="asc">Menor para o maior</option>
+                <option value="desc">Maior para o menor</option>
+            </select>
+
+            <label for="ordemNome">Ordenar por nome:</label>
+            <select name="ordemNome" id="ordemNome">
+                <option value="nenhum">nenhum</option>
+                <option value="asc">Menor para o maior</option>
+                <option value="desc">Maior para o menor</option>
+            </select>
+
+            <label for="ordemTamanho">Ordenar por tamanho:</label>
+            <select name="ordemTamanho" id="ordemTamanho">
+                <option value="nenhum">nenhum</option>
+                <option value="asc">Menor para o maior</option>
+                <option value="desc">Maior para o menor</option>
+            </select>
+        </div>
+        <section class="produtos">
+            
+        </section>
+
+
+    </main>
+
+    <footer class="rodape" id="contatos">
+        <p class="final1"> &copy PoppiCollections Tel: +55(41)9 9999-9999</p>
+        <p class="final2"> Site criado para efeito de estudo com base no site
+            <a href="https://www.fantoy.com.br/">Fantoy Colecionáveis</a>
+        </p>
+    </footer>
+
+
+    <script src="./dom.js"></script>
+</body>
+
+</html>

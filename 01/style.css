@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 33, 42);
+}
+
+.ajuste {
+    width: 75%;
+    background-color: rgb(230, 106, 219);
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementoLi{
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+    background-color: rgb(208, 208, 245);
+    width: auto;
+    border-radius:5px ;
+}
+
+.elementoLi button, .elementoLi p, #checkbox{
+    margin-left: 2rem;
+    
+       
+}
+.elementoLi img{
+    height: 16px;
+}
+
+.elementoLi button{
+display: flex;
+}
+
+.completed {
+    background-color: #5bb65b; /* Cor de fundo para tarefas completadas */
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .lista div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #listaTarefas {
+    margin: 1rem 2rem;
+    padding: 0;
+  }

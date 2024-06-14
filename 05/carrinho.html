@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Interativa</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="cabecalho" id="home">
+        <div class="cabecalhoBarra">
+            <img src="./image/logo.png" alt="Logo do Poppi Collection" class="barraLogo">
+            <div class="cabecalhoPesquisaBusca">
+                <label for="pesquisa"></label>
+                <input type="search" name="pesquisa" id="pesquisa" class="pesquisa" placeholder="Pesquisa">
+                <button class="btnProcurar">Procurar</button>
+            </div>
+            <nav class="cabecalhoMenu">
+
+                <ul>
+                    <li class="menuLink"><a href="#carrinho">Carrinho</a></li>
+                    <li class="menuLink"><a href="#minhaConta">Minha conta</a></li>
+                    <li class="menuLink"><a href="#contatos">Contatos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <nav class="navegacaoListas">
+            <ul class="ulListas">
+
+                <li class="li1">
+                    <a href="index.html">Catálogo</a>
+                </li>
+
+                <li class="li2">
+                    <a href="">Reservas</a>
+                </li>
+
+                <li class="li3">
+                    <a href="">Promoção</a>
+                </li>
+
+                <li class="li4">
+                    <a href="">Model Kit</a>
+                </li>
+
+                <li class="li5">
+                    <a href="">Showroom</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <h1>Carrinho</h1>
+        <section class="carrinho" id="carrinho"></section>
+        <h2 class="total"></h2>
+
+    </main>
+
+
+    <footer class="rodape" id="contatos">
+        <p class="final1"> &copy PoppiCollections Tel: +55(41)9 9999-9999</p>
+        <p class="final2"> Site criado para efeito de estudo com base no site
+            <a href="https://www.fantoy.com.br/">Fantoy Colecionáveis</a>
+        </p>
+    </footer>
+
+
+    <script src="./carrinho.js"></script>
+</body>
+
+</html>

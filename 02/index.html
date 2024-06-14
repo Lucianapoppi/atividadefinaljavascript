@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Dinâmico</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container"> 
+        <h1>Crie seu formulário</h1>
+
+        <div class="all">
+            <label for="campo">Escolha o campo:</label>
+            <select class="input" id="campo" name="campo">
+                <option value="1">Input</option>
+                <option value="2">Checkbox</option>
+            </select>
+            <input id="textInput" type="text">
+            <button onclick="adicionarCampo()">Adicionar</button>
+        </div>
+
+        <div id="form">
+            <div class="atividades"></div>
+            <button class="buttonFinalizar" onclick="finalizarFormulario()">Formulário Pronto!</button>
+        </div>
+
+    </div>
+    <script src="./dom.js"></script>
+</body>
+
+</html>

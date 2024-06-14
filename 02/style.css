@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(119, 122, 117);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 1rem;
+    border-radius:  10px 10px 0 0;
+}
+
+.container {
+    border-radius: 10px;
+    border: 2px ;
+    box-shadow: 0 0 20px;
+    width: 80%;
+    height: 90%;
+}
+
+.all {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: auto;
+    flex-direction: column;
+}
+
+.div {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(208, 208, 245);
+}
+
+.botaoEditar,
+button,
+.input {
+    margin-left: 2rem;
+}
+
+
+.buttonFinalizar{
+  padding: 0.5rem ;
+  margin: 20px;
+}
